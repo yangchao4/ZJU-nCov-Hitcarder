@@ -240,5 +240,5 @@ if __name__ == "__main__":
 
     pushplus_token = os.environ.get('PUSHPLUS_TOKEN')
     if pushplus_token:
-        ret = message.pushplus(msg, '', pushplus_token)
-        print('send_pushplus_message', ret)
+        print('pushplus服务已下线，建议使用钉钉')
+        exit(-1)

@@ -18,8 +18,6 @@ forked from [Tishacy/ZJU-nCov-Hitcarder](https://github.com/Tishacy/ZJU-nCov-Hit
          dingtalk_token: ${{ secrets.DINGTALK_TOKEN }}
          # (optional) serverchan_key.
          serverchan_key: ${{ secrets.SERVERCHAN_KEY }}
-         # (optional) pushplus_token.
-         pushplus_token: ${{ secrets.PUSHPLUS_TOKEN }}
 ```
 
 # Sample Repository
